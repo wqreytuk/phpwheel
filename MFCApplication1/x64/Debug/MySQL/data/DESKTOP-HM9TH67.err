@@ -1,0 +1,96 @@
+210903 21:41:32 [Note] Plugin 'FEDERATED' is disabled.
+210903 21:41:32 InnoDB: The InnoDB memory heap is disabled
+210903 21:41:32 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+210903 21:41:32 InnoDB: Compressed tables use zlib 1.2.3
+210903 21:41:32 InnoDB: Initializing buffer pool, size = 47.0M
+210903 21:41:32 InnoDB: Completed initialization of buffer pool
+210903 21:41:32 InnoDB: highest supported file format is Barracuda.
+210903 21:41:32  InnoDB: Waiting for the background threads to start
+210903 21:41:33 InnoDB: 5.5.53 started; log sequence number 1595685
+210903 21:41:33 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+210903 21:41:33 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+210903 21:41:33 [Note] Server socket created on IP: '0.0.0.0'.
+210903 21:45:16 [Note] Plugin 'FEDERATED' is disabled.
+210903 21:45:16 InnoDB: The InnoDB memory heap is disabled
+210903 21:45:16 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+210903 21:45:16 InnoDB: Compressed tables use zlib 1.2.3
+210903 21:45:16 InnoDB: Initializing buffer pool, size = 47.0M
+210903 21:45:16 InnoDB: Completed initialization of buffer pool
+210903 21:45:16 InnoDB: highest supported file format is Barracuda.
+210903 21:45:16  InnoDB: Waiting for the background threads to start
+210903 21:45:17 InnoDB: 5.5.53 started; log sequence number 1595685
+210903 21:45:17 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+210903 21:45:17 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+210903 21:45:17 [Note] Server socket created on IP: '0.0.0.0'.
+210903 21:47:21 [Note] Plugin 'FEDERATED' is disabled.
+210903 21:47:21 InnoDB: The InnoDB memory heap is disabled
+210903 21:47:21 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+210903 21:47:21 InnoDB: Compressed tables use zlib 1.2.3
+210903 21:47:21 InnoDB: Initializing buffer pool, size = 47.0M
+210903 21:47:21 InnoDB: Completed initialization of buffer pool
+210903 21:47:21 InnoDB: highest supported file format is Barracuda.
+210903 21:47:21  InnoDB: Waiting for the background threads to start
+210903 21:47:22 InnoDB: 5.5.53 started; log sequence number 1595685
+210903 21:47:22 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+210903 21:47:22 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+210903 21:47:22 [Note] Server socket created on IP: '0.0.0.0'.
+210903 21:59:27 [Note] Plugin 'FEDERATED' is disabled.
+210903 21:59:27 InnoDB: The InnoDB memory heap is disabled
+210903 21:59:27 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+210903 21:59:27 InnoDB: Compressed tables use zlib 1.2.3
+210903 21:59:27 InnoDB: Initializing buffer pool, size = 47.0M
+210903 21:59:27 InnoDB: Completed initialization of buffer pool
+210903 21:59:27 InnoDB: highest supported file format is Barracuda.
+210903 21:59:27  InnoDB: Waiting for the background threads to start
+210903 21:59:28 InnoDB: 5.5.53 started; log sequence number 1595685
+210903 21:59:28 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+210903 21:59:28 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+210903 21:59:28 [Note] Server socket created on IP: '0.0.0.0'.
+210903 22:00:37 [Note] Plugin 'FEDERATED' is disabled.
+210903 22:00:37 InnoDB: The InnoDB memory heap is disabled
+210903 22:00:37 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+210903 22:00:37 InnoDB: Compressed tables use zlib 1.2.3
+210903 22:00:37 InnoDB: Initializing buffer pool, size = 47.0M
+210903 22:00:37 InnoDB: Completed initialization of buffer pool
+210903 22:00:37 InnoDB: highest supported file format is Barracuda.
+210903 22:00:37  InnoDB: Waiting for the background threads to start
+210903 22:00:38 InnoDB: 5.5.53 started; log sequence number 1595685
+210903 22:00:38 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+210903 22:00:38 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+210903 22:00:38 [Note] Server socket created on IP: '0.0.0.0'.
+210903 22:00:43 [Note] Plugin 'FEDERATED' is disabled.
+210903 22:00:43 InnoDB: The InnoDB memory heap is disabled
+210903 22:00:43 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+210903 22:00:43 InnoDB: Compressed tables use zlib 1.2.3
+210903 22:00:43 InnoDB: Initializing buffer pool, size = 47.0M
+210903 22:00:43 InnoDB: Completed initialization of buffer pool
+210903 22:00:43 InnoDB: highest supported file format is Barracuda.
+210903 22:00:43  InnoDB: Waiting for the background threads to start
+210903 22:00:44 InnoDB: 5.5.53 started; log sequence number 1595685
+210903 22:00:44 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+210903 22:00:44 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+210903 22:00:44 [Note] Server socket created on IP: '0.0.0.0'.
+210903 22:03:24 [Note] Plugin 'FEDERATED' is disabled.
+210903 22:03:24 InnoDB: The InnoDB memory heap is disabled
+210903 22:03:24 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+210903 22:03:24 InnoDB: Compressed tables use zlib 1.2.3
+210903 22:03:24 InnoDB: Initializing buffer pool, size = 47.0M
+210903 22:03:24 InnoDB: Completed initialization of buffer pool
+210903 22:03:24 InnoDB: highest supported file format is Barracuda.
+210903 22:03:24  InnoDB: Waiting for the background threads to start
+210903 22:03:25 InnoDB: 5.5.53 started; log sequence number 1595685
+210903 22:03:25 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+210903 22:03:25 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+210903 22:03:25 [Note] Server socket created on IP: '0.0.0.0'.
+210903 22:27:03 [Note] Plugin 'FEDERATED' is disabled.
+210903 22:27:03 InnoDB: The InnoDB memory heap is disabled
+210903 22:27:03 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+210903 22:27:03 InnoDB: Compressed tables use zlib 1.2.3
+210903 22:27:03 InnoDB: Initializing buffer pool, size = 47.0M
+210903 22:27:03 InnoDB: Completed initialization of buffer pool
+210903 22:27:03 InnoDB: highest supported file format is Barracuda.
+210903 22:27:03  InnoDB: Waiting for the background threads to start
+210903 22:27:04 InnoDB: 5.5.53 started; log sequence number 1595685
+210903 22:27:04 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+210903 22:27:04 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+210903 22:27:04 [Note] Server socket created on IP: '0.0.0.0'.

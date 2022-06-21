@@ -1,0 +1,5 @@
+AH00112: Warning: DocumentRoot [C:/Users/x/Pictures/MFCApplication1/x64/Debug/Apache/a] does not exist
+Installing the 'Apache2.4' service
+The 'Apache2.4' service is successfully installed.
+Testing httpd.conf....
+Errors reported here must be corrected before the service can be started.

@@ -1,0 +1,2 @@
+AH00526: Syntax error on line 3 of C:/Users/x/Pictures/1/MFCApplication1/MFCApplication1/Apache/conf/extra/httpd-php.conf:
+Invalid command 's', perhaps misspelled or defined by a module not included in the server configuration

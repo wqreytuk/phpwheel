@@ -1,0 +1,5 @@
+﻿LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/PROFILE”规范)
+MFCApplication1.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:REF”规范)
+x64\Debug\Share.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  MFCApplication1.vcxproj -> C:\Users\x\Downloads\tmp\phpwheel-master\x64\Debug\MFCApplication1.exe

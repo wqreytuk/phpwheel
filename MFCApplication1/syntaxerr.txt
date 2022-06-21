@@ -1,0 +1,3 @@
+AH00112: Warning: DocumentRoot [C:/Users/x/projects/vmoex-framework-master/web] does not exist
+AH00112: Warning: DocumentRoot [C:/Users/x/Downloads/1] does not exist
+Syntax OK

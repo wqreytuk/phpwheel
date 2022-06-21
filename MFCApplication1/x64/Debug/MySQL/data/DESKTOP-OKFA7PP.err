@@ -1,0 +1,12 @@
+220605 15:42:15 [Note] Plugin 'FEDERATED' is disabled.
+220605 15:42:15 InnoDB: The InnoDB memory heap is disabled
+220605 15:42:15 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+220605 15:42:15 InnoDB: Compressed tables use zlib 1.2.3
+220605 15:42:15 InnoDB: Initializing buffer pool, size = 47.0M
+220605 15:42:15 InnoDB: Completed initialization of buffer pool
+220605 15:42:16 InnoDB: highest supported file format is Barracuda.
+220605 15:42:16  InnoDB: Waiting for the background threads to start
+220605 15:42:17 InnoDB: 5.5.53 started; log sequence number 1595685
+220605 15:42:17 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+220605 15:42:17 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+220605 15:42:17 [Note] Server socket created on IP: '0.0.0.0'.
