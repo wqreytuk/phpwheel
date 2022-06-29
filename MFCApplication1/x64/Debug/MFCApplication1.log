@@ -1,5 +1,28 @@
-﻿LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/PROFILE”规范)
-MFCApplication1.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:REF”规范)
-x64\Debug\Share.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
-LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
-  MFCApplication1.vcxproj -> C:\Users\x\Downloads\tmp\phpwheel-master\x64\Debug\MFCApplication1.exe
+﻿生成启动时间为 2022/6/29 20:04:14。
+     1>项目“C:\Users\x\phpwheel\MFCApplication1\MFCApplication1.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\x\phpwheel\x64\Debug\MFCApplication1.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /PDB:"C:\Users\x\phpwheel\x64\Debug\MFCApplication1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\x\phpwheel\x64\Debug\MFCApplication1.lib" /MACHINE:X64 /PROFILE x64\Debug\MFCApplication1.res
+         x64\Debug\MFCApplication1.obj
+         x64\Debug\MFCApplication1Dlg.obj
+         x64\Debug\pch.obj
+         x64\Debug\Share.obj
+         x64\Debug\Thread.obj
+         x64\Debug\Share.obj
+     1>LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/PROFILE”规范)
+     1>x64\Debug\Share.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+     1>LIBCMT.lib(invarg.obj) : error LNK2005: "void __cdecl _invalid_parameter(unsigned short const *,unsigned short const *,unsigned short const *,unsigned int,unsigned __int64)" (?_invalid_parameter@@YAXPEBG00I_K@Z) 已经在 libcmtd.lib(invarg.obj) 中定义
+     1>LIBCMT.lib(invarg.obj) : error LNK2005: "void __cdecl _invoke_watson(unsigned short const *,unsigned short const *,unsigned short const *,unsigned int,unsigned __int64)" (?_invoke_watson@@YAXPEBG00I_K@Z) 已经在 libcmtd.lib(invarg.obj) 中定义
+     1>LIBCMT.lib(invarg.obj) : error LNK2005: _call_reportfault 已经在 libcmtd.lib(invarg.obj) 中定义
+     1>LIBCMT.lib(invarg.obj) : error LNK2005: _get_invalid_parameter_handler 已经在 libcmtd.lib(invarg.obj) 中定义
+     1>LIBCMT.lib(invarg.obj) : error LNK2005: _initp_misc_invarg 已经在 libcmtd.lib(invarg.obj) 中定义
+     1>LIBCMT.lib(invarg.obj) : error LNK2005: _invalid_parameter 已经在 libcmtd.lib(invarg.obj) 中定义
+     1>LIBCMT.lib(invarg.obj) : error LNK2005: _invoke_watson 已经在 libcmtd.lib(invarg.obj) 中定义
+     1>LIBCMT.lib(invarg.obj) : error LNK2005: _set_invalid_parameter_handler 已经在 libcmtd.lib(invarg.obj) 中定义
+     1>LIBCMT.lib(invarg.obj) : error LNK2005: __pInvalidArgHandler 已经在 libcmtd.lib(invarg.obj) 中定义
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>C:\Users\x\phpwheel\x64\Debug\MFCApplication1.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
+     1>已完成生成项目“C:\Users\x\phpwheel\MFCApplication1\MFCApplication1.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.49

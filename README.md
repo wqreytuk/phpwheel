@@ -1,6 +1,6 @@
 [中文](https://github.com/motherfucker12138/phpwheel/blob/main/readme-ZH.md)
 
-**BUILD WITH VS2022**
+**BUILD WITH VS2012**
 
 a wheel for [phpstudy](https://www.xp.cn/)
 

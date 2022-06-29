@@ -3971,6 +3971,10 @@ void CMFCApplication1Dlg::OnBnClickedOk29()
 
 void CMFCApplication1Dlg::OnBnClickedOk30()
 {
+	
+
+
+
 	// TODO: 在此添加控件通知处理程序代码
 	//加一个基于IP的虚拟主机，好供外部访问
 	//、、。/*葱末板中复制内容
@@ -3981,6 +3985,69 @@ void CMFCApplication1Dlg::OnBnClickedOk30()
 	GetDlgItem(IDC_EDIT11)->GetWindowText(vhost_ip);
 	CString vhost_dir;
 	GetDlgItem(IDC_EDIT12)->GetWindowText(vhost_dir);
+
+	//先检测/*一下是否已经存在这个IP的配置了
+	//	如果存在，就提示用户是否替换*/
+	//读取vhost配置文件
+	CString strLinefuck = L"";
+	CString arrLinesfuck= L"";
+	int is_configured_already = 0;
+	CString config_path=L"";
+	TRY
+	{
+		CStdioFile file(m_path + L"\\apache\\conf\\vhosts.conf", CFile::modeRead);
+		while (file.ReadString(strLinefuck)) {
+			char temp_string[256];
+			strcpy_s(temp_string, CStringA(strLinefuck).GetString());
+			if (temp_string[0] == '#' || temp_string[0] == '\n')
+			{
+				continue;
+			}
+			if (strLinefuck.Find(vhost_ip) != -1) {
+				is_configured_already = 1;
+				//提取出对应的配置目录，用来提醒用户
+				file.ReadString(strLinefuck);
+				  strLinefuck.Replace(L"DocumentRoot ", L"");
+				config_path=strLinefuck;
+				break;
+			}
+			arrLinesfuck += strLinefuck;
+			arrLinesfuck += L"\n";
+		}
+		file.Close();
+	}
+		CATCH_ALL(e)
+	{
+		e->ReportError();
+	}
+	END_CATCH_ALL
+
+
+
+    int msgboxID = MessageBoxW(
+        (LPCWSTR)L"此IP已经配置了路径"+config_path+L"，确认要替换掉吗？",L"",
+   
+        MB_ICONWARNING | MB_YESNO | MB_DEFBUTTON2
+    );
+	int will_replace = 0;
+    switch (msgboxID)
+    {
+    case IDYES:
+        will_replace=1;
+        break;
+    case IDNO:
+        will_replace = 0;
+        break;
+    }
+
+	if(1==will_replace){
+		will_replace=1;
+	}else {
+		MessageBox(L"取消配置！！！");
+		return ;
+	}
+
+
 
 //	吧末班里面的内容读出来并进行相应的替换，最后加到vhost文件中
 	CString ip_baae_vhost_httpd_php_template_path = m_path + L"\\phpconfitemplate\\ip_based_virtual_host.ini";
@@ -4030,6 +4097,7 @@ void CMFCApplication1Dlg::OnBnClickedOk30()
 				continue;
 			}
 			if (strLine.Find(L"<VirtualHost "+ vhost_ip +L">") != -1) {
+				
 				while (file.ReadString(strLine)) {
 					if (strLine.Find(L"</VirtualHost>") != -1) {
 						break;
