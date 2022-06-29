@@ -1,4 +1,4 @@
-[中文](https://github.com/motherfucker12138/phpwheel/blob/main/readme-ZH.md)
+[中文](https://github.com/wqreytuk/phpwheel/blob/main/readme-ZH.md)
 
 **BUILD WITH VS2012**
 
